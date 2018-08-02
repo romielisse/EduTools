@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Basic_Java-Loan_Calculator-Monthly_Payment" external.linked.project.path="$MODULE_DIR$/../../../../../Basic Java/Loan Calculator/Monthly Payment" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Code_Works_Academy_Java_Bootcamp" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Basic Java/Loan Calculator/Monthly Payment">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Loan Calculator/Monthly Payment/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Loan Calculator/Monthly Payment/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Loan Calculator/Monthly Payment/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Basic_Java-Coding_Arithmetic_Statements-Doing_Math_main" target="1.8" />
+      <module name="Basic_Java-Coding_Arithmetic_Statements-Doing_Math_test" target="1.8" />
+      <module name="Basic_Java-Coding_Arithmetic_Statements-Math_Two_main" target="1.8" />
+      <module name="Basic_Java-Coding_Arithmetic_Statements-Math_Two_test" target="1.8" />
+      <module name="Basic_Java-Coding_Arithmetic_Statements-MathTwo_main" target="1.8" />
+      <module name="Basic_Java-Coding_Arithmetic_Statements-MathTwo_test" target="1.8" />
+      <module name="Basic_Java-Coding_Arithmetic_Statements-Print_Numbers_Debug_main" target="1.8" />
+      <module name="Basic_Java-Coding_Arithmetic_Statements-Print_Numbers_Debug_test" target="1.8" />
+      <module name="Basic_Java-Comparing_Strings-Palindrome_Tester_main" target="1.8" />
+      <module name="Basic_Java-Comparing_Strings-Palindrome_Tester_test" target="1.8" />
+      <module name="Basic_Java-Getting_and_Storing_User_Input-Read_Strings_in_as_Variables_main" target="1.8" />
+      <module name="Basic_Java-Getting_and_Storing_User_Input-Read_Strings_in_as_Variables_test" target="1.8" />
+      <module name="Basic_Java-Loan_Calculator-Monthly_Payment_main" target="1.8" />
+      <module name="Basic_Java-Loan_Calculator-Monthly_Payment_test" target="1.8" />
+      <module name="Basic_Java-More_Printing-Print_ATM_Receipt_main" target="1.8" />
+      <module name="Basic_Java-More_Printing-Print_ATM_Receipt_test" target="1.8" />
+      <module name="Basic_Java-Special_Characters-Palindrome_Tester_main" target="1.8" />
+      <module name="Basic_Java-Special_Characters-Palindrome_Tester_test" target="1.8" />
+      <module name="Basic_Java-Special_Characters-Print_Escape_Sequences_main" target="1.8" />
+      <module name="Basic_Java-Special_Characters-Print_Escape_Sequences_test" target="1.8" />
+      <module name="Basic_Java-testlesson-task1_main" target="1.8" />
+      <module name="Basic_Java-testlesson-task1_test" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-Add_Date_And_Message_main" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-Add_Date_And_Message_test" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-Add_Date_main" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-Add_Date_test" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-Hello_World_main" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-Hello_World_test" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-HelloWorld_main" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-HelloWorld_test" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-PrintNa,e_main" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-PrintNa,e_test" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-PrintName_main" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program-PrintName_test" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program_main" target="1.8" />
+      <module name="Basic_Java-Your_First_Java_Program_test" target="1.8" />
+      <module name="test-Your_First_Java_Program_main" target="1.8" />
+      <module name="test-Your_First_Java_Program_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

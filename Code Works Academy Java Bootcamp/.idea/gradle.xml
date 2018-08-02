@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Basic Java/Coding Arithmetic Statements/Doing Math" />
+            <option value="$PROJECT_DIR$/Basic Java/Coding Arithmetic Statements/Math Two" />
+            <option value="$PROJECT_DIR$/Basic Java/Coding Arithmetic Statements/Print Numbers Debug" />
+            <option value="$PROJECT_DIR$/Basic Java/Comparing Strings/Palindrome Tester" />
+            <option value="$PROJECT_DIR$/Basic Java/Getting and Storing User Input/Read Strings in as Variables" />
+            <option value="$PROJECT_DIR$/Basic Java/Loan Calculator/Monthly Payment" />
+            <option value="$PROJECT_DIR$/Basic Java/More Printing/Print ATM Receipt" />
+            <option value="$PROJECT_DIR$/Basic Java/Your First Java Program/Hello World" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Basic_Java-Getting_and_Storing_User_Input-Read_Strings_in_as_Variables" external.linked.project.path="$MODULE_DIR$/../../../../../Basic Java/Getting and Storing User Input/Read Strings in as Variables" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Code_Works_Academy_Java_Bootcamp" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Basic Java/Getting and Storing User Input/Read Strings in as Variables">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Getting and Storing User Input/Read Strings in as Variables/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Getting and Storing User Input/Read Strings in as Variables/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Getting and Storing User Input/Read Strings in as Variables/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

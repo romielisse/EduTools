@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="course">
+        <Course>
+          <option name="authors">
+            <list>
+              <StepicUser>
+                <option name="accessToken" value="" />
+                <option name="firstName" value="Dave" />
+                <option name="guest" value="false" />
+                <option name="id" value="-1" />
+                <option name="lastName" value="" />
+                <option name="refreshToken" value="" />
+              </StepicUser>
+            </list>
+          </option>
+          <option name="courseMode" value="Course Creator" />
+          <option name="courseType" value="PyCharm" />
+          <option name="customPresentableName" />
+          <option name="description" value="The Java Web Development Bootcamp takes you from your first java program to developing a web application. This course will give you a fast start on your career so you can take it to the next level. The course will teach you by forcing you to write over 130 java applications, including 5 major web applications. Programming challenges will keep you on your toes.&#10;&#10;You'll learn to create servlets and web pages. You'll use frameworks, unit tests and stored procedures. You'll connect to an Oracle database using the Java Persistence API(JPA), and most importantly, all assignments are submitted through git, so you will learn to develop using best practices in class, to make it easy to contribute value when you are on the job." />
+          <option name="index" value="-1" />
+          <option name="language" value="JAVA" />
+          <option name="languageCode" value="en" />
+          <option name="name" value="Code Works Academy Java Bootcamp" />
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="items">
+            <list>
+              <Section>
+                <option name="courseId" value="0" />
+                <option name="customPresentableName" />
+                <option name="id" value="0" />
+                <option name="index" value="1" />
+                <option name="name" value="Basic Java" />
+                <option name="position" value="0" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="0" />
+                <option name="units" />
+                <option name="items">
+                  <list>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="1" />
+                      <option name="name" value="Your First Java Program" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="MD" />
+                            <option name="descriptionText" value="&#10;###Your first Java program&#10;&lt;blockquote&gt;&#10;    A journey of a thousand miles begins with a single step.&#10;    - Laozi&#10;&lt;/blockquote&gt;&#10;&#10;It is time to write your first Java program. This program will display a message to the screen. The &quot;Hello, World!&quot; program is a computer program that outputs &quot;Hello, World!&quot; on a display device. Being a very simple program in most programming languages, it is often used to illustrate to programmers the basic syntax for constructing a working program.&#10;&#10;Entering instructions for a computer to follow is not easy. You must be very specific. Typographic errors (typos) are not tolerated. Most people find this frustrating, but you will get used to it after a while.&#10;&#10;The computer doesn't think. Thinking is your job. It follows the instructions you give it. Exactly.&#10;&#10;This exercise teaches you to enter a program. It also teaches you to run, or execute, that program properly.&#10;&#10;####Let's get started...&#10;Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code. It is important to enter the code exactly as written, including capitalization and indentation. I'll explain it line by line.&#10;&#10;{%ace edit=false, lang='java'%}&#10;public class HelloWorld&#10;{&#10;public static void main( String[] args )&#10;{&#10;System.out.println( &quot;Hello, World!&quot; );&#10;System.out.println(&quot;Today is July 19, 2015. I am alive!&quot;);&#10;}&#10;}&#10;{%endace%}&#10;```public class HelloWorld```&#10;&#10;The first line starts with the word ```public``` followed by the word ```class``` followed by the class name, ```HelloWorld```. The first letter of the class name is capitalized. It is always capitalized in Java. This is one of the conventions about Java that you will need to remember. The class name is made up of multiple words that are not separated by spaces. Each new word starts with a capital letter. This kind of capitalization is called camel case.&#10;&#10;```{``` The second line is just a single character: a “brace”. On your keyboard, you can find this character to the right of the 'P'. Hold Shift while pressing the '[' key.&#10;&#10;&#10;```public static void main( String[] args )```&#10;The third line is the name of the method, main. Methods begin with lower case letters. If a method contains multiple words then begin each word with a capital letter and don't separate them with spaces(camel case again). Main is the only method that you can't name on your own. For all other methods you'll make up a meaningful name. By convention, main is the starting point for all Java programs. You should have only one main method in your program.&#10;&#10;```[``` and ```]``` are called “brackets”, but many programmers call them “square brackets” to make sure there’s no confusion with the ```{``` and ```}```, which are called curly braces. In Java, parentheses and square brackets are not interchangeable. Brackets come in pairs and they are called “left bracket” or “open bracket” and “right bracket” or “close bracket”.&#10;&#10;Parenthesis, braces and brackets always come in pairs. When you create your program you should line up matching parenthesis, braces and brackets. Notice in the above program how I have them lined up after each metnod of the class name. It doesn't make or break the program to do this, but it does make it easier for you or someone else to know where the matching close is for each open.&#10;&#10;&#10;```{``` and ```}``` are called “braces” or “curly braces”. They are used to group lines of code into a single block of code.&#10;&#10;&#10;```System.out.println( &quot;Hello, World!&quot; );```&#10;&#10;```&quot;``` is called a “quotation mark”, often just abbreviated “quote”. In Java, these always come in pairs. The first one in a pair is usually called an “open quote” and the second one is a “close quote” even though it’s the exact same character in both places. But the first quote serves to begin something and the second one ends that thing.&#10;&#10;```'``` is technically an “apostrophe”, but almost all programmers call them “single quotes”. For this reason a quotation mark is often called a “double quote”. In some programming languages, single quotes and double quotes are interchangeable, but not in Java. Java does use single quotes sometimes, but they’re going to be pretty rare in this book.&#10;&#10;```.``` is technically a “period”, but almost all programmers just say “dot”. They are used a lot in programming languages, and they are usually used as separators instead of “enders”, so we don’t call them periods.There are four dots in this program and one period.&#10;&#10;```;``` is called a “semicolon”. It’s between the letter ‘L’ and the quote on the keyboard. Java statements often end in semicolons.&#10;&#10;&#10;Compiling Your First Program&#10;Now that the program has been written and hopefully contains no mistakes (we’ll see soon enough), run your program. Go to the Run menu and select Run this will compile and run your application. You will see the output from the application in the Console tab.&#10;&#10;&#10;#&#10;##What to do next&#10;Add another line to the program to print your name.&#10;&#10;###What You Should See After Completing the Study Drills&#10;&#10;```&#10;Hello, World!&#10;Today is July 19, 2015. I am alive!&#10;My name is Alton.&#10;```&#10;&#10;Below is a sample answer to what we asked you to do above. Don't just read the book straight through. Actually try to write each application we are asking you to. Only check the answer when you are sure you are done, or you are sure you are stuck. You can only learn to program, by actually writing programs yourself." />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Hello World" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="testsText">
+                              <map>
+                                <entry key="Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Should return &lt;i&gt;Hello World&lt;/i&gt; string" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="0" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="186" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="&quot;Hello World!&quot;" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Should return &lt;i&gt;My name is Alton.&lt;/i&gt; string" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="1" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="254" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="&quot;My name is Alton.&quot;" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                        </list>
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="name" value="Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="2" />
+                      <option name="name" value="More Printing" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="MD" />
+                            <option name="descriptionText" value="#&#10;##More printing&#10;&#10;Let's get used to printing. Write a program that prints an ATM receipt for Java Bank. An example is below. Your output can look slightly different but try to line up the borders and the margins of the text as much as possible&#10;&#10;The borders of the receipt are made up of the dash which is between the ```0``` and ```=``` keys. And the ```|``` pipe character which is above the ```[Enter]``` key. You create a ```|``` by holding ```[shift]``` + ```\```.&#10;&#10;Your receipt will line up if you use only spaces. Tabs are handled differently by the editor (Eclipse) so just use spaces to make it easy on yourself. Eclipse will move the cursor 4 positions when you press ```[TAB]```. The tab character will be replaced by 8 spaces when the program executes.&#10;&#10;&#10;&lt;pre&gt;&#10;+--------------------------------------+&#10;| Java Bank ATM Receipt |&#10;| Wednesday, December 2, 2015 |&#10;| ATM Location # 123 |&#10;| |&#10;| |&#10;| Account Number: 1234567 |&#10;| Customer: John Q. Public |&#10;| Transaction Type: Deposit |&#10;| Transaction Amount: $500.00 |&#10;| Account Balance: $1,500.00 |&#10;| |&#10;| Thank you for banking with us |&#10;| Have a coffee day |&#10;| |&#10;+--------------------------------------+&#10;&lt;/pre&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Print ATM Receipt" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="testsText">
+                              <map>
+                                <entry key="Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Use \n when printing. Add code to print the last two lines of the ATM receipt according to the assignment notes." />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="0" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="905" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="&quot;|      Have a coffee day               |\n&quot; +&#10;            &quot;+--------------------------------------+&quot;;" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                        </list>
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="name" value="Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="3" />
+                      <option name="name" value="Coding Arithmetic Statements" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;&#10;!-- ajh:done --&gt;&#10;###Coding arithmetic statements&#10;&#10;Now that we know how to declare and initialize variables in Java, we can do some mathematics with those variables.&#10;&#10;```java&#10;public class DoingMath&#10;{&#10;public static void main( String[] args )&#10;{&#10;int a, b;&#10;&#10;String one, two, red, blue;&#10;&#10;a = 5;&#10;b = 10;&#10;&#10;System.out.println( &quot;a is &quot; + a + &quot;, b is &quot; + b );&#10;System.out.println( &quot;a + b is &quot; + c );&#10;d = a - b;&#10;System.out.println( &quot;a - b is &quot; + d );&#10;e = a * b;&#10;System.out.println( &quot;a * b is &quot; + e );&#10;e = a / b;&#10;System.out.println( &quot;a / b is &quot; + e );&#10;e = b / a;&#10;System.out.println( &quot;b / a is &quot; + e );&#10;e = a % b;&#10;System.out.println( &quot;a % b is &quot; + e );&#10;e = b % a;&#10;System.out.println( &quot;b % a is &quot; + e );&#10;&#10;&#10;one = &quot;one&quot;;&#10;two = &quot;two&quot;;&#10;red = &quot;red&quot;;&#10;blue = &quot;blue&quot;;&#10;System.out.print( one + &quot; fish &quot; + two + &quot; fish &quot;);&#10;System.out.println(red + &quot; fish &quot; + blue + &quot; fish&quot;);&#10;// another way to print is...&#10;// use %s as a placeholder for strings, %d as a placeholder&#10;// for integers and %f for floating point decimals&#10;System.out.printf(&quot;%s fish %s fish %s fish %s fish&quot;,&#10;one, two, red, blue);&#10;}&#10;}&#10;```&#10;&#10;####What You Should See&#10;```&#10;a is 5, b is 10&#10;a + b is 15&#10;a - b is -5&#10;a * b is 50&#10;a / b is 0&#10;b / a is 2&#10;a % b is 5&#10;b % a is 0&#10;x is 1.5&#10;x * x is 2.25&#10;b / 3 is 3.0&#10;&#10;one fish two fish red fish blue fish&#10;one fish two fish red fish blue fish&#10;```&#10;&#10;The plus sign (+) will add integers or doubles together or integers and doubles (in either order).&#10;The (+) sign will concatenate the two Strings together.&#10;&#10;The minus sign (-) will subtract one number from another. Just like addition, it works with two integers, two doubles, or one integer and one double (in any order).&#10;&#10;An asterisk (*) is used for multiplication.&#10;&#10;A slash (/) is used for division. When an integer is divided by another integer the result is also an integer and not a double.&#10;&#10;The percent sign (%) is used to mean &amp;lsquo;modulus&amp;rsquo;, which is essentially the remainder left over after dividing.&#10;&#10;####Common Student Questions&#10;* Why is 1.1 times 1.1 equal to 1.2100000000000002 instead of just 1.21?&#10;&lt;blockquote&gt;&#10;    Why is 0.333333 + 0.666666 equal to 0.999999 instead of 1.0? Sometimes with math we get repeating decimals, and most computers convert numbers into binary before working with them. It turns out that 1.1 is a repeating decimal in binary. &lt;p&gt;&#10;    Remember what I said in the last exercise: the problem with doubles is limited precision. You will mostly be able to ignore that fact in this book, but I would like you to keep in the back of your mind that double variables sometimes give you values that are &lt;em&gt;slightly&lt;/em&gt; different than you&amp;rsquo;d expect. Generally, it is a difference that is washed away by rounding up.&#10;&lt;/blockquote&gt;&#10;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Doing Math" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="testsText">
+                              <map>
+                                <entry key="Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Add &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt;" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="0" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="673" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="a + b" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Subtract &lt;i&gt;b&lt;/i&gt; from &lt;i&gt;a&lt;/i&gt;" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="1" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="741" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="a - b" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Multiple &lt;i&gt;a&lt;/i&gt; and &lt;i&gt;b&lt;/i&gt;" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="2" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="809" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="a * b" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Divide &lt;i&gt;a&lt;/i&gt; by &lt;i&gt;b&lt;/i&gt;" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="3" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="891" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="a / b" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Divide &lt;i&gt;b&lt;/i&gt; by &lt;i&gt;a&lt;/i&gt;" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="4" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="1086" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="b / a" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Use the modulus operator" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="5" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="1237" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="a % b" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="An example output would be: &#10;        one fish two fish red fish blue fish&#10;&#10;Complete the code so that the words one, two, red, and blue can be switched out by whatever the user passes in, so we can have outputs like:&#10;        five fish seven fish yellow fish green fish&#10;        Bob the fish Greta the fish Joe the fish Nemo the fish" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="7" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="1350" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="s1 + &quot; fish &quot; + s2 + &quot; fish &quot; + s3 + &quot; fish &quot; + s4 + &quot; fish &quot;" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                        </list>
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="name" value="Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="2" />
+                            <option name="name" value="Math Two" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="testsText">
+                              <map>
+                                <entry key="Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="name" value="Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                          </EduTask>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="MD" />
+                            <option name="descriptionText" value="&lt;!--djw:done--&gt;&#10;&lt;!--ajh:done--&gt;&#10;###Debug this program&#10;&#10;This program is trying to assign two values to two variables, but if you put it in Eclipse it won't successfully run. Find and fix the error.&#10;&#10;```java&#10;public class DebugProg {&#10;public static void main(String[] args) {&#10;int x, y;&#10;&#10;x = 3.1415;&#10;y = 3.64;&#10;&#10;System.out.println(&quot;pi is approximately &quot; + x);&#10;System.out.println(&quot;My GPA was &quot; + y);&#10;}&#10;}&#10;```&#10;&#10;&#10;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="3" />
+                            <option name="name" value="Print Numbers Debug" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="testsText">
+                              <map>
+                                <entry key="Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="name" value="Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="4" />
+                      <option name="name" value="Getting and Storing User Input" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="MD" />
+                            <option name="descriptionText" value="&lt;!-- djw:done --&gt;&#10;&lt;!-- ajh:done I am concerned that this topic is weak... --&gt;&#10;###Getting and storing user input&#10;&#10;The Scanner object allows people to input data. It captures all the input on a standard input (like the keyboard) and delivers it to a variable.&#10;&#10;A Scanner scans the input by tokens using a delimiter pattern. The default delimiter is a space. This means that scanner assumes that each time it sees a space it is getting ready to start a new input. So if you want to capture an input that should contain spaces (like a book title, or someone's full name), you have to use a special command ```nextLine```.The scanner reads the input token by token. The resulting tokens may be converted into values of different types using various methods.&#10;&#10;####To include the Scanner class in your program&#10;Add the following declaration to the top of your code:&#10;{%ace edit=false, lang='java'%}&#10;import java.util.Scanner;&#10;{%endace%}&#10;&#10;Then, at some point, you will need to add this inside your program&#10;{%ace edit=false, lang='java'%}&#10;Scanner keyboard = new Scanner(System.in);&#10;{%endace%}&#10;&#10;Once you have created your scanner variable, you can request data and put it into another variable like so:&#10;{%ace edit=false, lang='java'%}&#10;Scanner keyboard = new Scanner(System.in);&#10;String myAnswer = keyboard.next();&#10;{%endace%}&#10;&#10;####Methods of the Scanner class&#10;&#10;&#10;|**Method**|**Returns**|&#10;|-|-|&#10;|int nextInt()|Returns the next token as an int. |&#10;|long nextLong()|Returns the next token as a long.|&#10;|float nextFloat()|Returns the next token as a float.|&#10;|double nextDouble()|Returns the next token as a long.|&#10;|String next()|Finds and returns the next complete token&lt;br&gt;from this scanner and returns it as a string;&lt;br&gt;a token is usually ended by whitespace such as a blank or line break.&lt;br&gt;If no token exists, NoSuchElementException is thrown.|&#10;|String nextLine()|Returns the rest of the current line, excluding any line separator at the end.|&#10;|void close()|Closes the scanner object.&#10;&#10;####Your assignment....&#10;Complete the following  program. Use the Scanner class to read the following string into variables.&#10;Input String: &quot;P Sherman 42 Wallaby Way Sydney&quot;&#10;Variables: firstInitial,lastName, houseNumber,streetName,streetType,city&#10;&#10;Your output should be handled with this code:&#10;```java&#10;System.out.print(firstInitial + &quot; &quot; + lastName + &quot; &quot; + houseNumber + &quot; &quot;);&#10;System.out.println(streetName + &quot; &quot; + streetType + &quot; &quot; + city);&#10;``` &#10; &#10;&#10; " />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Read Strings in as Variables" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="testsText">
+                              <map>
+                                <entry key="Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Use the Scanner() class" />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="0" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="361" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="Scanner keyboard = new Scanner(System.in);&#10;    name = keyboard.nextLine();&#10;&#10;    return name;" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                        </list>
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="name" value="Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="5" />
+                      <option name="name" value="Comparing Strings" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="MD" />
+                            <option name="descriptionText" value="&lt;!--&#10;djw: bug: it doesn't account for spaces or punctuation. I left the bug and added the bonus section.&#10;djw:done--&gt;&#10;###What does this code do? (Part 1)&#10;&#10;When programmers develop a program or some code they spend some amount of time creating it. The code then goes into production and may be run for weeks, months, years, or decades. The IRS is still using programs developed in the early 1970's. Those programs have changed since their first inception. Imagine the number of new tax laws that have to be added to the IRS program's code each year. Estimates vary, but over 80% of your code's lifetime will be spent in maintenance. That means you should give your variables meaningful names. It also means you should use comments generously. This will make it easier for the next person to maintain your program." />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Palindrome Tester" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="testsText">
+                              <map>
+                                <entry key="Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list>
+                                          <AnswerPlaceholder>
+                                            <option name="hints">
+                                              <list>
+                                                <option value="Compare the string forwards and backwards." />
+                                              </list>
+                                            </option>
+                                            <option name="index" value="0" />
+                                            <option name="initialState" />
+                                            <option name="initializedFromDependency" value="false" />
+                                            <option name="length" value="6" />
+                                            <option name="offset" value="308" />
+                                            <option name="placeholderDependency" />
+                                            <option name="placeholderText" value="TODO()" />
+                                            <option name="possibleAnswer" value="// Convert to lower case to simplify comparing strings&#10;    String phrase = s.toLowerCase();&#10;    String backwards = &quot;&quot;;&#10;&#10;      // loop through the string backwards, starting with the last character&#10;      for(int i = phrase.length() - 1; i &gt;= 0; i--) {&#10;        // Extract each letter as the next character&#10;        // and build the backwards string&#10;        String letter = phrase.substring(i, i + 1);&#10;        backwards += letter;&#10;      }&#10;&#10;&#10;      if(phrase.equals(backwards)) {&#10;        return true;&#10;      }&#10;&#10;      return false;" />
+                                            <option name="selected" value="false" />
+                                            <option name="status" value="Unchecked" />
+                                            <option name="studentAnswer" />
+                                            <option name="useLength" value="false" />
+                                          </AnswerPlaceholder>
+                                        </list>
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="name" value="Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                    <Lesson>
+                      <option name="customPresentableName" />
+                      <option name="id" value="0" />
+                      <option name="index" value="6" />
+                      <option name="name" value="Loan Calculator" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="updateDate" value="0" />
+                      <option name="taskList">
+                        <list>
+                          <EduTask>
+                            <option name="additionalFiles">
+                              <map />
+                            </option>
+                            <option name="customPresentableName" />
+                            <option name="descriptionFormat" value="HTML" />
+                            <option name="descriptionText" value="&lt;html&gt;&#10;Write your task text here.&#10;&lt;br&gt;&#10;&lt;/html&gt;" />
+                            <option name="feedbackLink">
+                              <FeedbackLink>
+                                <option name="link" />
+                                <option name="type" value="STEPIK" />
+                              </FeedbackLink>
+                            </option>
+                            <option name="index" value="1" />
+                            <option name="name" value="Monthly Payment" />
+                            <option name="status" value="Unchecked" />
+                            <option name="stepId" value="0" />
+                            <option name="stepikChangeStatus" value="Up to date" />
+                            <option name="testsText">
+                              <map>
+                                <entry key="Test.java" value="public class Test {&#10;    // put your test here&#10;}" />
+                              </map>
+                            </option>
+                            <option name="updateDate" value="0" />
+                            <option name="taskFiles">
+                              <map>
+                                <entry key="Task.java">
+                                  <value>
+                                    <TaskFile>
+                                      <option name="answerPlaceholders">
+                                        <list />
+                                      </option>
+                                      <option name="highlightErrors" value="true" />
+                                      <option name="trackChanges" value="true" />
+                                      <option name="trackLengths" value="true" />
+                                      <option name="userCreated" value="false" />
+                                      <option name="name" value="Task.java" />
+                                      <option name="text" value="class Task {&#10;  //put your task here&#10;}" />
+                                    </TaskFile>
+                                  </value>
+                                </entry>
+                              </map>
+                            </option>
+                          </EduTask>
+                        </list>
+                      </option>
+                      <option name="unitId" value="0" />
+                    </Lesson>
+                  </list>
+                </option>
+              </Section>
+            </list>
+          </option>
+        </Course>
+      </option>
+      <option name="VERSION" value="9" />
+    </StudyTaskManager>
+  </component>
+</project>

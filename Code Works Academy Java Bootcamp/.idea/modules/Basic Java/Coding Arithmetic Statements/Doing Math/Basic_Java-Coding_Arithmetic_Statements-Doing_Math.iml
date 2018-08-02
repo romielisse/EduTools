@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Basic_Java-Coding_Arithmetic_Statements-Doing_Math" external.linked.project.path="$MODULE_DIR$/../../../../../Basic Java/Coding Arithmetic Statements/Doing Math" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Code_Works_Academy_Java_Bootcamp" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Basic Java/Coding Arithmetic Statements/Doing Math">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Coding Arithmetic Statements/Doing Math/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Coding Arithmetic Statements/Doing Math/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Basic Java/Coding Arithmetic Statements/Doing Math/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
